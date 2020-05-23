@@ -1,0 +1,70 @@
+body{
+    /* line height , font- size , font-family in same short hand property line */
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;   
+}
+
+
+#title , #description{
+    text-align: center;
+}
+
+form{
+    /* makes it responsive by default */
+    max-width: 450px;
+    height: auto;
+    /* center everything */
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+    color:#f4f4f4;
+    background: linear-gradient(180deg, #00132c34 0%, #0f69df 100%);
+    padding: 30px 20px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.form-control{
+
+    margin-bottom: 20px;
+    text-align: left;
+}
+.form-control label{
+    font-size: 20px;
+    margin-bottom: 6px;
+    display: block;   
+}
+
+.form-control input , .form-control select , .form-control textarea{
+    border: 1px solid #777;
+    border-radius: 2px;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+.form-control input[type="radio"] , .form-control input[type="checkbox"] {
+    display: inline-block;
+    /* it will take as much space as much it needs not more */
+    width: auto;
+}
+
+span{
+    font-size: 15px;
+}
+button#submit{
+    width: 90%;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #0252b8 0%, #3583ea 100%);
+    color:#f4f4f4;
+    font-size: 20px;
+    height: 40px;
+}
+
+
